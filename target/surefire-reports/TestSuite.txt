@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.092 s <<< FAILURE! - in TestSuite
+com.cybersuccess.maven.MavenAutomation1.SampleTest.sampleTest  Time elapsed: 2.813 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Access is denied. (os error 5)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-GMEDNO1N', ip: '192.168.43.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.cybersuccess.maven.MavenAutomation1.SampleTest.sampleTest(SampleTest.java:10)
+

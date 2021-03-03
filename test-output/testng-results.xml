@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="64490" started-at="2021-03-03T13:23:10 IST" finished-at="2021-03-03T13:24:14 IST">
+    <groups>
+    </groups>
+    <test name="pack1" duration-ms="64490" started-at="2021-03-03T13:23:10 IST" finished-at="2021-03-03T13:24:14 IST">
+      <class name="com.cybersuccess.maven.MavenAutomation1.SampleTest">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.cybersuccess.maven.MavenAutomation1.SampleTest@1e6d1014]" name="sampleTest" duration-ms="27306" started-at="2021-03-03T13:23:47 IST" finished-at="2021-03-03T13:24:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- com.cybersuccess.maven.MavenAutomation1.SampleTest -->
+      <class name="com.cybersuccess.maven.MavenAutomation1.DemoTest">
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.cybersuccess.maven.MavenAutomation1.DemoTest@4f063c0a]" name="demoTest" duration-ms="37148" started-at="2021-03-03T13:23:10 IST" finished-at="2021-03-03T13:23:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+      </class> <!-- com.cybersuccess.maven.MavenAutomation1.DemoTest -->
+    </test> <!-- pack1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

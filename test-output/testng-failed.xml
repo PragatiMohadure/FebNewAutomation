@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="pack1(failed)">
+    <classes>
+      <class name="com.cybersuccess.maven.MavenAutomation1.SampleTest">
+        <methods>
+          <include name="sampleTest"/>
+        </methods>
+      </class> <!-- com.cybersuccess.maven.MavenAutomation1.SampleTest -->
+      <class name="com.cybersuccess.maven.MavenAutomation1.DemoTest">
+        <methods>
+          <include name="demoTest"/>
+        </methods>
+      </class> <!-- com.cybersuccess.maven.MavenAutomation1.DemoTest -->
+    </classes>
+  </test> <!-- pack1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
